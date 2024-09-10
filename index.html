@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html> <!--Start of HTML-->
+    <head> <!--Head HTML and Title of Page in this section-->
+        <title></title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="javascript" href="index.js">
+    </head>
+    <!--Body HTML for Main Content-->
+    <body>
+        <!-- Navigation Horizontal Bar-->
+         <ul class="top-nav">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Examples</a></li>
+            <li><a href="#">Links</a></li>
+            <li><a href="#">Contact</a></li>
+            <button class="openbtn" onclick="openNav()">&#9776; My Info</button>
+         </ul>
+         <div id="main">
+        <div class="header">
+        <h1>Collection Project</h1>
+        <!-- div id and class are nesters - used to indicate content type and use for styling in css-->
+    </div>
+    <!-- The sidebar -->
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <h4>Bee Happy</h4><br>
+  Learning to Code one Step at a Time!
+  </div>
+  
+        <div id="content">
+            <!-- generic division of content, block element, no semantic meaning but it does separate content from the rest of the document-->
+            <script>
+                function openNav() {
+                  document.getElementById("mySidebar").style.width = "250px";
+                  document.getElementById("main").style.marginLeft = "250px";
+                }
+                
+                function closeNav() {
+                  document.getElementById("mySidebar").style.width = "0";
+                  document.getElementById("main").style.marginLeft= "0";
+                }
+                </script>
+             <div class="intro">
+                <p>
+                    
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rhoncus est ultrices, laoreet nibh vel, sollicitudin metus. Quisque pretium laoreet urna sed accumsan. Nullam sodales sapien turpis, in placerat nulla tincidunt a. Integer mollis venenatis libero, ut posuere neque luctus eu. Curabitur sit amet felis rhoncus, luctus elit non, cursus diam. Etiam nibh ligula, vulputate vel viverra ut, sagittis id tellus. Sed ligula turpis, eleifend tincidunt ipsum et, posuere ultricies lectus.
+                    <br><br>
+                    Fusce molestie leo id condimentum venenatis. Nulla ultricies lacus sit amet molestie vulputate. Mauris nunc erat, tincidunt id metus non, placerat molestie sem. Donec eleifend pulvinar urna et mattis. Cras id nulla vehicula, molestie magna at, scelerisque tortor. Suspendisse a tellus arcu. Nulla consequat ligula ut dapibus blandit. Quisque pretium turpis vel nunc placerat, vitae porttitor metus dictum. Duis auctor, nisl non imperdiet fringilla, tellus nunc iaculis leo, pulvinar convallis erat turpis at magna. Mauris porttitor mauris eu ante maximus, sit amet elementum erat laoreet. Nulla non sapien sapien. Pellentesque pulvinar nec lectus non mattis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam augue mi, dignissim ac dui sit amet, scelerisque fermentum massa.
+                    <br><br>
+                    Integer dignissim nulla a lacus porttitor viverra. Pellentesque fermentum imperdiet leo, ut elementum ex tempus sit amet. Mauris rhoncus bibendum turpis in sagittis. In hac habitasse platea dictumst. Nunc finibus purus dui, suscipit commodo nunc rhoncus eget. Maecenas ligula tortor, eleifend in rutrum molestie, varius non felis. Sed fringilla justo in dictum malesuada. Nulla ex dui, pellentesque non accumsan in, mollis sed arcu. Sed aliquet metus non lacus mattis, sit amet commodo metus euismod.
+                    <br><br>
+                    In accumsan placerat ligula nec lacinia. Nullam faucibus est molestie neque bibendum rutrum. Nullam rutrum tristique velit, commodo varius ex aliquet at. Donec bibendum porttitor diam nec ornare. Aliquam in bibendum felis. Nulla laoreet massa nisl, vel consequat augue bibendum tristique. Sed malesuada dignissim convallis. Sed at erat in risus pellentesque elementum. Sed malesuada semper dolor, quis pharetra sapien varius vitae.
+                    <br><br>
+                    Vestibulum in eros suscipit diam vehicula suscipit eu sit amet erat. Aliquam ultricies eros eget massa dignissim facilisis. Cras in ullamcorper lectus, sit amet mollis dolor. Vivamus congue faucibus justo eget dignissim. Phasellus at arcu id erat porttitor volutpat. Quisque eget risus vulputate, iaculis erat eu, tempus nunc. Cras eleifend pretium purus non bibendum. Cras at posuere purus. Sed vel orci ac sapien lobortis fermentum eget tincidunt massa. Quisque vehicula est vitae dui consequat, eget ornare purus convallis. Cras efficitur, libero sed finibus consequat, ipsum velit lobortis mi, pretium efficitur turpis mauris eget ligula. Vivamus in commodo lacus, eu mattis lectus. </p>
+             </div>
+             <img src="CSSANATOMY.png" width="600px" height="600px" class="image">
+        </div>
+        <p></p>
+    </div>
+    </body>
+    
+    <!--Copyright etc for Footer-->
+    <footer>
+
+    </footer>
+</html>
